@@ -1,0 +1,78 @@
+{
+  "kind": "hd",
+  "mode": "movement",
+  "duration": 20,
+  "protocol": "Single illustrative velocity trajectory with learned bump shifting; distinct from the Table 2 random-walk benchmark.",
+  "checkpoint_sha256": "05e559f5b1b015aaa965c375ae5f211fa87a16cc6cb877b365e15a6b4d3e701e",
+  "shifting_checkpoint_sha256": "ee51ff8a7ac81e8e58b36c7d664c6a24783c792fe40ef8fe03f5cd94cda37c86",
+  "input_update_dt": 0.05,
+  "phase_scale_rad_per_m": null,
+  "velocity_protocol": {
+    "process": "Ornstein-Uhlenbeck; centered and uniformly scaled",
+    "seed": 2027,
+    "correlation_time_s": 1.3,
+    "maximum_absolute_velocity_rad_per_s": 0.85
+  },
+  "arrays": {
+    "time": {
+      "offset": 0,
+      "shape": [
+        201
+      ]
+    },
+    "activity": {
+      "offset": 201,
+      "shape": [
+        201,
+        64
+      ]
+    },
+    "target": {
+      "offset": 13065,
+      "shape": [
+        201,
+        1
+      ]
+    },
+    "decoded": {
+      "offset": 13266,
+      "shape": [
+        201,
+        1
+      ]
+    },
+    "velocity": {
+      "offset": 13467,
+      "shape": [
+        201,
+        1
+      ]
+    },
+    "position": {
+      "offset": 13668,
+      "shape": [
+        201,
+        2
+      ]
+    },
+    "energy": {
+      "offset": 14070,
+      "shape": [
+        201,
+        1
+      ]
+    },
+    "error": {
+      "offset": 14271,
+      "shape": [
+        201,
+        1
+      ]
+    }
+  },
+  "binary": "hd_movement.bin",
+  "bytes": 57888,
+  "sha256": "68b2de92df36b087464f1e3dfcb289761926210623f9aca09083920c5fd6d3f7",
+  "dt": 0.05,
+  "device": "cuda"
+}
