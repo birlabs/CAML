@@ -1,0 +1,25 @@
+WEBVTT
+
+00:04.000 --> 00:08.000 line:94% position:50% align:center size:90%
+CAML learns a scalar energy whose low-energy set represents a supplied spatial manifold.
+
+00:08.000 --> 00:12.000 line:94% position:50% align:center size:90%
+The energy gradient restores perturbed activity toward the manifold.
+
+00:12.000 --> 00:16.000 line:94% position:50% align:center size:90%
+A separately learned bump-shifting field responds to velocity inputs.
+
+00:16.000 --> 00:28.000 line:94% position:50% align:center size:90%
+The energy gradient restores perturbed states toward ring and torus manifolds.
+
+00:28.000 --> 00:40.000 line:94% position:50% align:center size:90%
+Head-direction activity recovers a localized bump as population energy decreases.
+
+00:40.000 --> 00:52.000 line:94% position:50% align:center size:90%
+Grid-cell activity recovers a localized bump on the rhombic lattice.
+
+00:52.000 --> 01:04.000 line:94% position:50% align:center size:90%
+Angular velocity moves the head-direction bump along the learned ring.
+
+01:04.000 --> 01:16.000 line:94% position:50% align:center size:90%
+Linear velocity translates grid activity along its two phase directions.
