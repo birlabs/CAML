@@ -1,0 +1,77 @@
+{
+  "kind": "grid",
+  "mode": "movement",
+  "duration": 40,
+  "protocol": "Single illustrative velocity trajectory with learned bump shifting; distinct from the Table 2 random-walk benchmark.",
+  "checkpoint_sha256": "3ad1655be93cc721a9e0467eff956a25d7e54a984b8447df59fc2facc954ac3d",
+  "shifting_checkpoint_sha256": "1ce26f946c93aab7a674b810a3f85a2c819d94781f224b7f5894b4e087dff1f3",
+  "input_update_dt": 0.05,
+  "phase_scale_rad_per_m": 2,
+  "velocity_protocol": {
+    "process": "Smooth two-axis sinusoidal linear velocity",
+    "x_formula": ".32*cos(2*pi*t/24)",
+    "y_formula": ".24*sin(2*pi*t/24)+.08*cos(2*pi*t/13)"
+  },
+  "arrays": {
+    "time": {
+      "offset": 0,
+      "shape": [
+        401
+      ]
+    },
+    "activity": {
+      "offset": 401,
+      "shape": [
+        401,
+        4096
+      ]
+    },
+    "target": {
+      "offset": 1642897,
+      "shape": [
+        401,
+        2
+      ]
+    },
+    "decoded": {
+      "offset": 1643699,
+      "shape": [
+        401,
+        2
+      ]
+    },
+    "velocity": {
+      "offset": 1644501,
+      "shape": [
+        401,
+        2
+      ]
+    },
+    "position": {
+      "offset": 1645303,
+      "shape": [
+        401,
+        2
+      ]
+    },
+    "energy": {
+      "offset": 1646105,
+      "shape": [
+        401,
+        1
+      ]
+    },
+    "error": {
+      "offset": 1646506,
+      "shape": [
+        401,
+        2
+      ]
+    }
+  },
+  "binary": "grid_movement.bin",
+  "bytes": 6589232,
+  "sha256": "650d3f2f4115e5775b03fb6c0aa40bbd2fbc893c38a602fb9657fa63f54db297",
+  "dt": 0.05,
+  "device": "cuda"
+}

@@ -1,0 +1,97 @@
+{
+  "kind": "grid",
+  "mode": "recovery",
+  "duration": 200,
+  "noise_sd": 0.5,
+  "example_index": 0,
+  "ensemble_states": 2000,
+  "seed": 101,
+  "protocol": "All 2,000 Figure 3 Gaussian-perturbed states; pure RK4 dynamics.",
+  "checkpoint_sha256": "3ad1655be93cc721a9e0467eff956a25d7e54a984b8447df59fc2facc954ac3d",
+  "cloud_readout": "Fixed linear activity readout used in Figure 3.",
+  "cloud_limits": [
+    [
+      -0.9624959826469421,
+      0.9575619697570801
+    ],
+    [
+      -0.8819016218185425,
+      0.8810248374938965
+    ],
+    [
+      -0.29519662261009216,
+      0.29585781693458557
+    ]
+  ],
+  "display_sampling": "Recorded RK4 states, with denser times early in recovery.",
+  "provenance": {
+    "source": "Figure 3 / restoration/grid/perturbed.npz",
+    "source_sha256": "8b22a3ff49d27abc6abaf49590e51930d34e77f83e11e1a2b5a51b91dc40847e",
+    "readout_source": "Figure 3 / restoration/grid/perturbed_visualization.npz",
+    "readout_source_sha256": "adaa98d74ab8c0927c7109c51b762cd8f9f39716e0317b9bb1d11c0d709c448a",
+    "endpoint_max_abs_difference_from_cache": 0.0,
+    "endpoint_rms_difference_from_cache": 0.0
+  },
+  "arrays": {
+    "time": {
+      "offset": 0,
+      "shape": [
+        237
+      ]
+    },
+    "activity": {
+      "offset": 237,
+      "shape": [
+        237,
+        4096
+      ]
+    },
+    "cloud": {
+      "offset": 970989,
+      "shape": [
+        237,
+        2000,
+        3
+      ]
+    },
+    "error": {
+      "offset": 2392989,
+      "shape": [
+        237,
+        2000
+      ]
+    },
+    "energy": {
+      "offset": 2866989,
+      "shape": [
+        237,
+        2000
+      ]
+    },
+    "decoded": {
+      "offset": 3340989,
+      "shape": [
+        237,
+        2
+      ]
+    },
+    "reference_activity": {
+      "offset": 3341463,
+      "shape": [
+        4096
+      ]
+    },
+    "reference_cloud": {
+      "offset": 3345559,
+      "shape": [
+        2000,
+        3
+      ]
+    }
+  },
+  "binary": "grid_recovery.bin",
+  "bytes": 13406236,
+  "sha256": "6bd53aa7f754c568c99fd6f52234a1ba435bf57cdd4944be7edceeccc22a4c40",
+  "dt": 0.05,
+  "device": "cuda"
+}
