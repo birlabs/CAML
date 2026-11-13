@@ -1,0 +1,93 @@
+{
+  "kind": "hd",
+  "mode": "recovery",
+  "duration": 25,
+  "noise_sd": 0.3,
+  "example_index": 0,
+  "ensemble_states": 2000,
+  "seed": 101,
+  "protocol": "All 2,000 Figure 3 Gaussian-perturbed states; pure RK4 dynamics.",
+  "checkpoint_sha256": "05e559f5b1b015aaa965c375ae5f211fa87a16cc6cb877b365e15a6b4d3e701e",
+  "cloud_readout": "Fixed linear activity readout used in Figure 3.",
+  "cloud_limits": [
+    [
+      -1.5032963752746582,
+      1.4031211137771606
+    ],
+    [
+      -1.4352296590805054,
+      1.4547055959701538
+    ]
+  ],
+  "display_sampling": "Recorded RK4 states, with denser times early in recovery.",
+  "provenance": {
+    "source": "Figure 3 / restoration/hd/perturbed.npz",
+    "source_sha256": "eb95634c3c2cdbd1db0098a020d94a5ad98b3fa8b51c58e70020a0e9bac43783",
+    "readout_source": "Figure 3 / restoration/hd/perturbed_visualization.npz",
+    "readout_source_sha256": "75087350c59975794588d7479f99e1c977d281dffc74b7803a08aa5e43eb44a6",
+    "endpoint_max_abs_difference_from_cache": 0.0,
+    "endpoint_rms_difference_from_cache": 0.0
+  },
+  "arrays": {
+    "time": {
+      "offset": 0,
+      "shape": [
+        212
+      ]
+    },
+    "activity": {
+      "offset": 212,
+      "shape": [
+        212,
+        64
+      ]
+    },
+    "cloud": {
+      "offset": 13780,
+      "shape": [
+        212,
+        2000,
+        2
+      ]
+    },
+    "error": {
+      "offset": 861780,
+      "shape": [
+        212,
+        2000
+      ]
+    },
+    "energy": {
+      "offset": 1285780,
+      "shape": [
+        212,
+        2000
+      ]
+    },
+    "decoded": {
+      "offset": 1709780,
+      "shape": [
+        212,
+        1
+      ]
+    },
+    "reference_activity": {
+      "offset": 1709992,
+      "shape": [
+        64
+      ]
+    },
+    "reference_cloud": {
+      "offset": 1710056,
+      "shape": [
+        2000,
+        2
+      ]
+    }
+  },
+  "binary": "hd_recovery.bin",
+  "bytes": 6856224,
+  "sha256": "567a609bdfc73b726f115be3d40508e9c8ea4a29de65cff7be446ea0394bb633",
+  "dt": 0.05,
+  "device": "cuda"
+}

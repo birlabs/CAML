@@ -1,0 +1,51 @@
+{
+  "figure": "CAML Figure 2",
+  "source_figure": "neurips2026-rebuttal/CAML-camera-ready-complete/figures/method.svg",
+  "source_directory": "neurips2026-rebuttal/CAML-camera-ready-complete/assets",
+  "sprite": "method-illustrations.png",
+  "cell_size_px": 768,
+  "columns": 4,
+  "processing": "Original image components composited on white, trimmed at white margins, and resized with aspect ratio preserved. No activity values or positions changed.",
+  "cells": [
+    {
+      "index": 0,
+      "source": "method_01_energy.png",
+      "sha256": "182e0c78ad356b995c12c490d04dedf836ac9c56f6df3803dd2641a7cb93d562"
+    },
+    {
+      "index": 1,
+      "source": "method_03_torus.png",
+      "sha256": "a4f01ebe37a7890ae2480ed20bbcfa78db2194a9693b3eda5cda05be3a95be3c"
+    },
+    {
+      "index": 2,
+      "source": "method_05_activity.png",
+      "sha256": "7010ec9fa3bc73eed6282d3f1782c59360c83396d7a67f148a345805942e53bf"
+    },
+    {
+      "index": 3,
+      "source": "method_06_activity.png",
+      "sha256": "ff53678720aa846d4caafea0351775e065a704a9f6ae006dfe5d00d5d80f5a08"
+    },
+    {
+      "index": 4,
+      "source": "method_07_activity.png",
+      "sha256": "82662ea35bd732861331d52d6460f8e558438b726425457d4645cbd0d33fe752"
+    },
+    {
+      "index": 5,
+      "source": "method_08_activity.png",
+      "sha256": "8bce90d5f219c0205c7399143c8ff7dc73eac5a7a2c28a1069d1a34670c1a501"
+    },
+    {
+      "index": 6,
+      "source": "method_09_activity.png",
+      "sha256": "cb6ea873e98a14292b93349e5623eaa1c5a8f63dffeb26f66a6a179209781753"
+    },
+    {
+      "index": 7,
+      "source": "method_10_activity.png",
+      "sha256": "99c11e3d55d65ca9280332da2c5edf6895d43ce024a78a43a36ed7481e9df7dd"
+    }
+  ]
+}
